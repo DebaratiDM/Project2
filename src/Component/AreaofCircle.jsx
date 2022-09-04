@@ -5,7 +5,7 @@ const AreaOfCircle = () => {
   const areaCircle = areaOfCircle(Pie, radius);
 
   return (
-    <div>
+    <div className="App">
       AreaOfCircle for radius <b>{radius}</b> is : <b>{areaCircle}</b>
     </div>
   );

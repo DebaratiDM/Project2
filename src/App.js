@@ -8,8 +8,8 @@ function App() {
   return (
     <div className="amarContainer">
       <Header />
-      <Grid />
       <Container>
+        <Grid />
         <AreaOfReactangle />
         <AreaOfCircle />
       </Container>
